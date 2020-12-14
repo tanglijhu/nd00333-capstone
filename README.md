@@ -7,7 +7,7 @@ The project's goal is to make an accurate prediction on the heart failure event 
 
 # Table of Contents
 <!--ts-->
-- [Dataset] (#dataset)
+- [Dataset](#dataset)
   * [Overview](#overview)
   * [Task](#task)
   * [Access](#access)
