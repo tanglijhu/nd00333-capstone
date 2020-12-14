@@ -1,9 +1,4 @@
-# Project Title: Machine Learning Engineer with Microsoft Azure Capstone Projeect
-
-The project's goal is to make an accurate prediction on the heart failure event with a clinical record dataset. 
-
-
-
+# Project: Machine Learning Engineer with Microsoft Azure Capstone
 
 # Table of Contents
 <!--ts-->
@@ -12,18 +7,16 @@ The project's goal is to make an accurate prediction on the heart failure event 
   * [Task](#task)
   * [Access](#access)
 - [Architectural Diagram](#architectural-diagram)
-- [Screenshots](#screenshots)
-  * [registered dataset](#registered-dataset)
-  * [completed automated machine learning ](#completed-automated-machine-learning )
+- [Automated ML](#automated-ml)
+  * [Overview of AutoML Settings](#overview-of-automl-settings)
+  * [Results](#results)
+  * [RunDetails widget](#rundetails-widget)
   * [best model](#best-model)
-  * [Application Insights enabled](#Application-Insights-enabled)
-  * [running logs file](#running-logs-file)
-  * [running swagger on localhost showing the HTTP API methods and responses from the model](#running-swagger-on-localhost-showing-the-HTTP-API-methods-and-responses-from-the-model)
-  * [running endpoint file against the API producing JSON output from the model](#running-endpoint-file-against-the-API-producing-JSON-output-from-the-model)
-  * [active REST pipeline endpoint](#active-REST-pipeline-endpoint)
-  * [use RunDetails widget in Jupyter Notebook](#use-rundetails-widget-in-jupyter-notebook)
-  * [scheduled run](#scheduled-run)
-- [Key Steps](#key-steps)
+- [Hyperparameter Tuning](#hyperparameter-tuning)
+  * [Overview of Hyperparameter Tuning Settings](#overview-of-hyperparameter-tuning-settings)
+  * [Results](#results)
+  * [RunDetails widget](#rundetails-widget)
+  * [best model](#best-model)
 - [Screen Recording](#screen-recording)
 - [Suggestions to Improve](#suggestions-to-improve)
  
@@ -51,74 +44,46 @@ Afterwards, the pipeline with AutoMLStep was created. During the training, the A
 The best model was retrieved and tested. 
 The pipeline was publishd and the REST endpoint was generated to use for predictions. 
 
-## Screenshots
+## Automated ML
 
-### registered dataset
-![registered dataset](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/registered%20datasets_new.PNG?raw=true)
+### Overview of AutoML Settings 
 
-### completed automated machine learning 
-![completed automated machine learning ](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/auto-ml-completed_new.PNG?raw=true)
+### Results
 
-### best model
-![best model 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%201_new.PNG?raw=true)
-![best model 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%202_new.PNG?raw=true)
 
-### Application Insights enabled 
-![Application Insights enabled](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/endpoint-after-running-log-file_new.PNG?raw=true)
-
-### running logs file
-![running "logs.py"](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/running-logs-file_new.PNG?raw=true)
-
-### running swagger on localhost showing the HTTP API methods and responses from the model
-![running swagger 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-get_new.PNG?raw=true)
-![running swagger 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-get-1_new.PNG?raw=true)
-![running swagger 3](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post_new.PNG?raw=true)
-![running swagger 4](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post-1_new.PNG?raw=true)
-
-### running endpoint file against the API producing JSON output from the model
-![running "endpoint.py"](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/running-endpoint_new.PNG?raw=true)
-
-### created pipeline
-![created pipeline](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/pipeline-created_new.PNG?raw=true)
-
-### active REST pipeline endpoint
-![pipeline endpoint](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/active-rest-pipeline-endpoint_new.PNG?raw=true)
-
-### use RunDetails widget in Jupyter Notebook
+### RunDetails widget
 ![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-1_new.PNG?raw=true)
 ![RunDetails Widget-2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-2_new.PNG?raw=true)
 
-### scheduled run
-![scheduled run](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/scheduled-run-pipeline-rest-endpoint_new.PNG?raw=true)
+### best model
+![best model 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%201_new.PNG?raw=true)
+![best model 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%202_new.PNG?raw=true) model
 
 
-## Key-Steps
+## Hyperparameter Tuning
 
-* Step 1: bank marketing dataset registration
+### Overview of Hyperparameter Tuning Settings 
 
-* Step 2: Azure automated machine training as a classification problem with a creteria of "accuracy"
+### Results
 
-* Step 3: best model generation as of "VotingEnsemble" (accuracy as ~ 0.92) and registration
 
-* Step 4: an real-time endpoint deployment from the best model:
+### RunDetails widget
+![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-1_new.PNG?raw=true)
+![RunDetails Widget-2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-2_new.PNG?raw=true)
 
-   + running "logs.py" to enable the Application Insights" 
-   + running swagger on localhost showing the HTTP API methods (both of GET and POST) and responses from the model
+### best model
+![best model 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%201_new.PNG?raw=true)
+![best model 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%202_new.PNG?raw=true) model
 
-* Step 5: real time predictions with the provided "endpoint.py" file
-
-* Step 6: creating, publishing, and consuming a REST pipeline endpoint with schduled predictions using the provided Jupyter Notebook "aml-pipelines-with-automated-machine-learning-step.ipynb"
-
-## Screen-Recording
+## Screen Recording
 
 A [screen recording](https://youtu.be/f7VzVPqbxpY) of the project is provided to demonstrate the following steps: 
 
-* a working deployed ML model endpoint
-* the deployed endpoint
-* the best AutoML model
-* successful API requests to the endpoint with a JSON payload 
+* a working model
+* demo of the deployed model
+* demo of a sample request sent to the endpont and its response 
 
-## Suggestions-to-Improve
+## Suggestions to Improve
 
 * To perform feature engineering, for example, dimension reduction using PCA. PCA enables to represent a multivariate data (i.e., high dimension) as smaller set of variables (i.e., small dimenstion) in order to observe trends, clusters, and outliers. This could uncover the relationships between observations and variables and among the variables.
 
