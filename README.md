@@ -1,11 +1,16 @@
-# Project Title: Operationalizing Machine Learning Pipeline and Deployed Endpoint
+# Project Title: Machine Learning Engineer with Microsoft Azure Capstone Projeect
 
-The project's goal is to operationalize a machine learning pipeline with a deployed REST endpoint. 
+The project's goal is to make an accurate prediction on the heart failure event with a clinical record dataset. 
 
-The dataset used contains the bank marketing information including age, job, marital status, education, housing, loan, poutcome, etc. It is a classification problem where the goal is to predict whether the client will subscribe to a term deposit. After Azure Studio automated machine learning training, the best model was generated based on the criteria of "accuracy". The best model was deployed as the endpoint, which serves out predictions about whether a client's tendency to subscribe to a term deposit. 
+
+
 
 # Table of Contents
 <!--ts-->
+- [Dataset] (#dataset)
+  * [Overview](#overview)
+  * [Task](#task)
+  * [Access](#access)
 - [Architectural Diagram](#architectural-diagram)
 - [Screenshots](#screenshots)
   * [registered dataset](#registered-dataset)
@@ -24,7 +29,11 @@ The dataset used contains the bank marketing information including age, job, mar
  
 <!--te-->  
 
-    
+## Dataset
+### Overview
+### Task
+### Access
+
 ## Architectural Diagram
 
 The architechtural diagram is illustrated in the chart as below:
