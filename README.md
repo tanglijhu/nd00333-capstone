@@ -10,13 +10,16 @@
 - [Automated ML](#automated-ml)
   * [Overview of AutoML Settings](#overview-of-automl-settings)
   * [Results](#results)
-  * [RunDetails widget](#rundetails-widget)
-  * [best model](#best-model)
+  * [RunDetails Widget](#rundetails-widget)
+  * [Best Model](#best-model)
 - [Hyperparameter Tuning](#hyperparameter-tuning)
   * [Overview of Hyperparameter Tuning Settings](#overview-of-hyperparameter-tuning-settings)
   * [Results](#results)
-  * [RunDetails widget](#rundetails-widget)
-  * [best model](#best-model)
+  * [RunDetails Widget](#rundetails-widget)
+  * [Best Model](#best-model)
+- [Model Deployment](#model-deployment)
+  * [Overview of Deployed Model](#overview-of-deployed-model)
+  * [Endpoint Query](#endpoint-query)  
 - [Screen Recording](#screen-recording)
 - [Suggestions to Improve](#suggestions-to-improve)
  
@@ -51,11 +54,11 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ### Results
 
 
-### RunDetails widget
+### RunDetails Widget
 ![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-1_new.PNG?raw=true)
 ![RunDetails Widget-2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-2_new.PNG?raw=true)
 
-### best model
+### Best Model
 ![best model 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%201_new.PNG?raw=true)
 ![best model 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%202_new.PNG?raw=true) model
 
@@ -67,13 +70,19 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ### Results
 
 
-### RunDetails widget
+### RunDetails Widget
 ![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-1_new.PNG?raw=true)
 ![RunDetails Widget-2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-2_new.PNG?raw=true)
 
-### best model
+### Best Model
 ![best model 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%201_new.PNG?raw=true)
 ![best model 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%202_new.PNG?raw=true) model
+
+## Model Deployment
+
+### Overview of Deployed Model 
+
+### Endpoint Query
 
 ## Screen Recording
 
