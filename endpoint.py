@@ -2,8 +2,8 @@ import requests
 import json
 
 # URL for the web service, should be similar to:
-# 'http://8530a665-66f3-49c8-a953-b82a2d312917.eastus.azurecontainer.io/score'
-scoring_uri = 'http://d0d5dde1-d788-4d63-b276-d5a2778a2c1e.southcentralus.azurecontainer.io/score'
+# 'http://17fb482f-c5d8-4df7-b011-9b33e860c111.southcentralus.azurecontainer.io/score'
+scoring_uri = 'http://17fb482f-c5d8-4df7-b011-9b33e860c111.southcentralus.azurecontainer.io/score'
 # If the service is authenticated, set the key or token
 key = 'iOhff5Z0kJlzznr9Wq4c3KcGQULltKYB'
 
@@ -11,48 +11,32 @@ key = 'iOhff5Z0kJlzznr9Wq4c3KcGQULltKYB'
 data = {"data":
         [
           {
-            "age": 17,
-            "campaign": 1,
-            "cons.conf.idx": -46.2,
-            "cons.price.idx": 92.893,
-            "contact": "cellular",
-            "day_of_week": "mon",
-            "default": "no",
-            "duration": 971,
-            "education": "university.degree",
-            "emp.var.rate": -1.8,
-            "euribor3m": 1.299,
-            "housing": "yes",
-            "job": "blue-collar",
-            "loan": "yes",
-            "marital": "married",
-            "month": "may",
-            "nr.employed": 5099.1,
-            "pdays": 999,
-            "poutcome": "failure",
-            "previous": 1
+            "age": 75,
+            "anaemia": 0,
+            "creatinine_phosphokinase": 582,
+            "diabetes": 0,
+            "ejection_fraction": 20,
+            "high_blood_pressure": 1,
+            "platelets": 265000,
+            "serum_creatinine": 1.9,
+            "serum_sodium": 130,
+            "sex": 1,
+            "smoking": 0,
+            "time": "4"
           },
           {
-            "age": 87,
-            "campaign": 1,
-            "cons.conf.idx": -46.2,
-            "cons.price.idx": 92.893,
-            "contact": "cellular",
-            "day_of_week": "mon",
-            "default": "no",
-            "duration": 471,
-            "education": "university.degree",
-            "emp.var.rate": -1.8,
-            "euribor3m": 1.299,
-            "housing": "yes",
-            "job": "blue-collar",
-            "loan": "yes",
-            "marital": "married",
-            "month": "may",
-            "nr.employed": 5099.1,
-            "pdays": 999,
-            "poutcome": "failure",
-            "previous": 1
+            "age": 55,
+            "anaemia": 0,
+            "creatinine_phosphokinase": 7861,
+            "diabetes": 0,
+            "ejection_fraction": 38,
+            "high_blood_pressure": 0,
+            "platelets": 263358.03,
+            "serum_creatinine": 1.1,
+            "serum_sodium": 136,
+            "sex": 1,
+            "smoking": 0,
+            "time": "6"
           },
       ]
     }
