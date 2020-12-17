@@ -112,7 +112,7 @@ The corresponding parameters include "C": '0.19046682857549246' and 'max_iter': 
 
 ## Screen Recording
 
-A [screen recording](https://youtu.be/f7VzVPqbxpY) of the project is provided to demonstrate the following steps: 
+A [screen recording](https://youtu.be/jsxS3OFomd8) of the project is provided to demonstrate the following steps: 
 
 * a working model
 * demo of the deployed model
