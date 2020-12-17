@@ -86,8 +86,15 @@ The best model after training was "VotingEnsemble" with the AUC_weighed matric a
 
 ### Overview of Hyperparameter Tuning Settings 
 
+The classification problem could also be tackled with a Logistic Regression algorithm training from sklearn. Logistis Regression is a go-to binary classification algorithm with the benifits of: 1) easier to use and interpret, 2) very efficient to train, 3) making no assumptions about distributions of classes in feature space.
+
+Hyperparameter tuning was performed by using HyperDriveConfig with specified regression training transcript and hyperparameters. Especially, "C" parameter controls the penality strength (i.e., inverse penlity so smaller value specifies more penality and strong regularization) and "max_iter" parameter means the maximum number of iterations taken for the solvers to converge. In this case, the search space for C parameter was uniformed distributed in 0.1 to 1 and for max_iter was chosen with discreate value as of 50, 100, 150, 200 (100 as default).
+
+
 ### Results
 
+The best metrics after HyperDriveConfig include 'Regularization Strength:': 0.19046682857549246, 'Max iterations:': 200, and 'Accuracy': 0.7833333333333333.
+The corresponding parameters include "C": '0.19046682857549246' and 'max_iter': '200'.
 
 ### RunDetails Widget
 ![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-1_new.PNG?raw=true)
